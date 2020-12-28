@@ -42,7 +42,7 @@ public class MainPage extends AbstractPage
 	{
 		driver.navigate().to(BASE_URL);
 		logger.info("Opened page " + BASE_URL);
-		driverWait.until(ExpectedConditions.presenceOfElementLocated(byClosePopupButton)).click();
+		//driverWait.until(ExpectedConditions.presenceOfElementLocated(byClosePopupButton)).click();
 		return this;
 	}
 
