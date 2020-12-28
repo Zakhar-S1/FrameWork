@@ -31,7 +31,7 @@ public class CustomConditions {
         };
 
         try {
-            driver.wait(3500);
+            Thread.sleep(3500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
